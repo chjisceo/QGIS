@@ -9,9 +9,9 @@
         <qgis_maximum_version>3.99</qgis_maximum_version>
         <homepage><![CDATA[]]></homepage>
         <file_name>StreetViewKorea.zip</file_name>
-        <icon>https://chjisceo.github.io/QGIS//icons/StreetViewKorea/icon.png</icon>
+        <icon>https://chjisceo.github.io/QGIS/icons/StreetViewKorea/icon.png</icon>
         <author_name><![CDATA[Harry Cho]]></author_name>
-        <download_url>https://chjisceo.github.io/QGIS//download/StreetViewKorea.zip</download_url>
+        <download_url>https://chjisceo.github.io/QGIS/download/StreetViewKorea.zip</download_url>
         <create_date>2022-05-17T05:39:41</create_date>
         <update_date>2022-05-17T05:50:43</update_date>
         <experimental>False</experimental>
