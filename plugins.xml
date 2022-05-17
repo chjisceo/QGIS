@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <plugins>
-    <pyqgis_plugin name="Street View Korea" version="0.1" plugin_id="100000">
+    <pyqgis_plugin name="Street View Korea" version="1.0" plugin_id="100000">
         <description><![CDATA[Street View Korea]]></description>
         <about><![CDATA[Streetview allows you to open a web page with the KAKAO, NAVER Street View that highlights the part you have identified with two points (the base and target points) The target point is identified by dragging the base point]]></about>
-        <version><![CDATA[0.1]]></version>
+        <version><![CDATA[1.0]]></version>
         <trusted>False</trusted>
-        <qgis_minimum_version>0.1</qgis_minimum_version>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
         <qgis_maximum_version>2.99</qgis_maximum_version>
-        <homepage><![CDATA[http://www.gisplan.it/]]></homepage>
+        <homepage><![CDATA[]]></homepage>
         <file_name>StreetViewKorea.zip</file_name>
-        <icon>https://chjisceo.github.io/harry-qgis.github.io/icons/StreetViewKorea/icon.png</icon>
+        <icon>https://chjisceo.github.io/QGIS//icons/StreetViewKorea/icon.png</icon>
         <author_name><![CDATA[Harry Cho]]></author_name>
-        <download_url>https://chjisceo.github.io/harry-qgis.github.io/download/StreetViewKorea.zip</download_url>
+        <download_url>https://chjisceo.github.io/QGIS//download/StreetViewKorea.zip</download_url>
         <create_date>2022-05-17T05:39:41</create_date>
-        <update_date>2022-05-17T05:38:35</update_date>
+        <update_date>2022-05-17T05:50:43</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[]]></tracker>
