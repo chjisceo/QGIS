@@ -22,9 +22,9 @@ Lat Lon Tools makes it easy to capture, zoom to coordinates, and interact with o
         <qgis_maximum_version>2.99</qgis_maximum_version>
         <homepage><![CDATA[https://github.com/NationalSecurityAgency/qgis-latlontools-plugin/#readme]]></homepage>
         <file_name>latlontools(MMS).zip</file_name>
-        <icon>https://kr-ngii.github.io/icons/latlontools(MMS)/icon.png</icon>
+        <icon>https://harry-qgis.github.io/icons/latlontools(MMS)/icon.png</icon>
         <author_name><![CDATA[Harry Cho]]></author_name>
-        <download_url>https://kr-ngii.github.io/download/latlontools(MMS).zip</download_url>
+        <download_url>https://harry-qgis.github.io/download/latlontools(MMS).zip</download_url>
         <create_date>2022-05-17T03:18:29</create_date>
         <update_date>2022-05-17T03:18:29</update_date>
         <experimental>False</experimental>
@@ -45,9 +45,9 @@ Lat Lon Tools makes it easy to capture, zoom to coordinates, and interact with o
         <qgis_maximum_version>2.99</qgis_maximum_version>
         <homepage><![CDATA[http://www.gisplan.it/]]></homepage>
         <file_name>StreetView(Korea).zip</file_name>
-        <icon>https://kr-ngii.github.io/icons/StreetView(Korea)/icon.png</icon>
+        <icon>https://harry-qgis.github.io/icons/StreetView(Korea)/icon.png</icon>
         <author_name><![CDATA[Harry Cho]]></author_name>
-        <download_url>https://kr-ngii.github.io/download/StreetView(Korea).zip</download_url>
+        <download_url>https://harry-qgis.github.io/download/StreetView(Korea).zip</download_url>
         <create_date>2022-05-17T03:18:29</create_date>
         <update_date>2022-05-17T03:18:29</update_date>
         <experimental>False</experimental>
