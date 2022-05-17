@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<plugins>
+    <pyqgis_plugin name="Lat Lon Tools" version="3.5.9" plugin_id="100000">
+        <description><![CDATA[Tools to capture and zoom to coordinates using decimal, DMS, WKT, GeoJSON, MGRS, UTM, UPS, Geohash, Maidenhead grid, and Plus Codes formats. Provides external map support, point digitizing tools, coordinate conversion tools, and conversion functions.]]></description>
+        <about><![CDATA[
+Lat Lon Tools makes it easy to capture, zoom to coordinates, and interact with other on-line mapping tools. It adds MGRS, Standard UTM, and Plus Codes support to QGIS. When working with Google Earth, Google Maps or other on-line mapping tools, coordinates are specified in the order of 'Latitude, Longitude'. By default Lat Lon Tools uses the standard Google Map format, but is very flexible and can use virtually any projection and coordinate format for input and output. The plugin has the following tools.
+1) Capture/Display coordinates to the clipboard (in any projection) when the user clicks on the map. This includes DMS, UTM, UPS, Geohash, MGRS, Maidenhead grid, and Plus Codes.
+2) Capture the bounding box of the canvas.
+3) Zoom to and highlight a point on the map using coordinates from any projection, including MGRS, UTM, UPS, Geohash, Maidenhead grid, and Plus Codes, and can format the coordinates in decimal, DMS, WKT POINT, or GeoJSON notation.
+4) Digitizing service to add points to a layer. It supports all the "Zoom to" input formats.
+5) Launch and display an external map based on the coordinate clicked on. Supported maps include Open Street Map, Google, Bing, MapQuest, Mapillary, and Google Earth.
+6) Use a list of points for rapid zooming created from a file, direct input, or captured from the map. Create a point layer from these locations.
+7) MGRS conversion routines that converts a layer with an MGRS field into a point layer, and creates an MGRS field from the point layer.
+8) Plus Code conversion routines that converts a layer with a Plus Code field into a point layer, and creates an Plus Code field from the point layer.
+9) Convert a point layer geometry into a textual representation of that geometry within a field.
+10) Convert a layer containing a coordinate field or fields into a point layer.
+11) Coordinate conversion dialog.
+12) Conversion functions for the field calculator]]></about>
+        <version><![CDATA[3.5.9]]></version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>3.4</qgis_minimum_version>
+        <qgis_maximum_version>2.99</qgis_maximum_version>
+        <homepage><![CDATA[https://github.com/NationalSecurityAgency/qgis-latlontools-plugin/#readme]]></homepage>
+        <file_name>latlontools(MMS).zip</file_name>
+        <icon>https://harry-qgis.github.io/icons/latlontools(MMS)/icon.png</icon>
+        <author_name><![CDATA[C Hamilton]]></author_name>
+        <download_url>https://harry-qgis.github.io/download/latlontools(MMS).zip</download_url>
+        <create_date>2022-05-16T14:44:30</create_date>
+        <update_date>2022-05-16T13:46:46</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[https://github.com/NationalSecurityAgency/qgis-latlontools-plugin/issues]]></tracker>
+        <repository><![CDATA[https://github.com/NationalSecurityAgency/qgis-latlontools-plugin]]></repository>
+        <tags><![CDATA[coordinate,capture,latitude,longitude,epsg:4326,4326,wgs84,utm,ups,dms,zoom,move to,crs,wkt,point,mgrs,osm,google,bing,mapillary,openstreetmap,digitizing,digitize,geojson,processing,conversion,plus codes,canvas,bounding box,google earth,geohash,maidenhead grid,amateur radio grid,function,functions,expression]]></tags>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin>
+
+    <pyqgis_plugin name="Street View" version="0.1" plugin_id="100001">
+        <description><![CDATA[Street View]]></description>
+        <about><![CDATA[Streetview allows you to open a web page with the KAKAO Street View that highlights the part you have identified with two points (the base and target points) The target point is identified by dragging the base point]]></about>
+        <version><![CDATA[0.1]]></version>
+        <trusted>False</trusted>
+        <qgis_minimum_version>0.1</qgis_minimum_version>
+        <qgis_maximum_version>2.99</qgis_maximum_version>
+        <homepage><![CDATA[http://www.gisplan.it/]]></homepage>
+        <file_name>StreetView(Korea).zip</file_name>
+        <icon>https://harry-qgis.github.io/icons/StreetView(Korea)/icon.png</icon>
+        <author_name><![CDATA[Harry Cho]]></author_name>
+        <download_url>https://harry-qgis.github.io/download/StreetView(Korea).zip</download_url>
+        <create_date>2022-05-16T13:53:19</create_date>
+        <update_date>2022-05-16T13:45:57</update_date>
+        <experimental>False</experimental>
+        <deprecated>False</deprecated>
+        <tracker><![CDATA[http://rubyforge.org/projects/gisplan/]]></tracker>
+        <repository><![CDATA[http://hub.qgis.org/projects/gisplan/]]></repository>
+        <tags><![CDATA[StreetView,KAKAO,RoadView]]></tags>
+        <external_dependencies></external_dependencies>
+        <server>False</server>
+    </pyqgis_plugin>
+</plugins>
