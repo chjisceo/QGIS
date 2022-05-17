@@ -16,9 +16,9 @@ XML_TEMPLATE = '''
         <qgis_maximum_version>{qgis_maximum_version}</qgis_maximum_version>
         <homepage><![CDATA[{homepage}]]></homepage>
         <file_name>{folder_name}.zip</file_name>
-        <icon>https://chjisceo.github.io/QGIS//icons/{folder_name}/icon.png</icon>
+        <icon>https://chjisceo.github.io/QGIS/icons/{folder_name}/icon.png</icon>
         <author_name><![CDATA[{author_name}]]></author_name>
-        <download_url>https://chjisceo.github.io/QGIS//download/{crr_zip_file}</download_url>
+        <download_url>https://chjisceo.github.io/QGIS/download/{crr_zip_file}</download_url>
         <create_date>{create_date}</create_date>
         <update_date>{update_date}</update_date>
         <experimental>False</experimental>
