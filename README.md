@@ -1,22 +1,6 @@
 # QGIS 플러그인 튜닝 저장소
 
 # StreetViewKorea
-
-### 생성 방식
-
-1. Create Plugin scripts ( By Plugin Builder 3 )
-    
-    <aside>
-    ⚙ PYTHON_PLUGINS_PATH/
-        MyPlugin/
-            **init.py --> *required*
-            mainPlugin.py --> *core code***
-            **metadata.txt --> *required***
-            resources.qrc --> *likely useful*
-            resources.py --> *compiled version, likely useful*
-            form.ui --> *likely useful*
-            form.py --> *compiled version, likely useful*
-    
-    </aside>
-    
-2.
+### 네이버 / 카카오 로드뷰 연계 툴
+#### 기본 값은 카카오 로드뷰 입니다. Ctrl 키 누르고 사용 시 네이버 로드뷰 화면이 나타납니다.
+#### QGIS Base Map에서 원하는 방향으로 드래그하여 사용하세요.

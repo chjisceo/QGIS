@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <plugins>
-    <pyqgis_plugin name="Street View Korea" version="1.0" plugin_id="100000">
-        <description><![CDATA[Street View Korea]]></description>
-        <about><![CDATA[Streetview allows you to open a web page with the KAKAO, NAVER Street View that highlights the part you have identified with two points (the base and target points) The target point is identified by dragging the base point]]></about>
-        <version><![CDATA[1.0]]></version>
+    <pyqgis_plugin name="Street View Korea" version="1.0.1" plugin_id="100000">
+        <description><![CDATA[Street View Naver, KAKAO]]></description>
+        <about><![CDATA[Streetview allows you to open a web page with the KAKAO, NAVER]]></about>
+        <version><![CDATA[1.0.1]]></version>
         <trusted>False</trusted>
         <qgis_minimum_version>3.0</qgis_minimum_version>
         <qgis_maximum_version>3.99</qgis_maximum_version>
@@ -13,12 +13,12 @@
         <author_name><![CDATA[Harry Cho]]></author_name>
         <download_url>https://chjisceo.github.io/QGIS/download/StreetViewKorea.zip</download_url>
         <create_date>2022-05-17T05:39:41</create_date>
-        <update_date>2022-05-17T05:50:43</update_date>
+        <update_date>2022-05-20T09:15:47</update_date>
         <experimental>False</experimental>
         <deprecated>False</deprecated>
         <tracker><![CDATA[]]></tracker>
-        <repository><![CDATA[]]></repository>
-        <tags><![CDATA[StreetView about KAKAO and Naver RoadView]]></tags>
+        <repository><![CDATA[https://github.com/chjisceo/qgis-StreetViewKorea]]></repository>
+        <tags><![CDATA[StreetView, KAKAO, Naver, RoadView, street, view]]></tags>
         <external_dependencies></external_dependencies>
         <server>False</server>
     </pyqgis_plugin>

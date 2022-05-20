@@ -55,8 +55,8 @@ def main():
                     metadata_txt = zip_file.read("{}/metadata.txt".format(folder_name)).decode("utf-8")
                     print(metadata_txt)
 
-                    metadata = ConfigParser()
-                    metadata.readfp(StringIO(metadata_txt))
+                    metadata = ConfigParser(allow_no_value=False)
+                    metadata.read_string(metadata_txt)
 
                     icon_file = metadata.get("general", "icon")
                     src_icon = zip_file.read("{}/{}".format(folder_name, icon_file))
