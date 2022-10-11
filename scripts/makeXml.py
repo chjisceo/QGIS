@@ -81,8 +81,8 @@ def main():
                         file_name = folder_name,
                         author_name = metadata.get("general", "author"),
                         crr_zip_file = os.path.basename(zip_file_path),
-                        create_date = time.strftime("%Y-%m-%dT%H:%M:%S", time.gmtime(os.path.getctime(zip_file_path))),
-                        update_date = time.strftime("%Y-%m-%dT%H:%M:%S", time.gmtime(os.path.getmtime(zip_file_path))),
+                        create_date = time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime(os.path.getctime(zip_file_path))),
+                        update_date = time.strftime("%Y-%m-%dT%H:%M:%S", time.localtime(os.path.getmtime(zip_file_path))),
                         tracker = metadata.get("general", "tracker"),
                         repository = metadata.get("general", "repository"),
                         tags = metadata.get("general", "tags")
