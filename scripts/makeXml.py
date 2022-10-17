@@ -94,7 +94,6 @@ def main():
 
             out_xml.write('</plugins>\n')
     except Exception as e:
-        print("ERROR: ",)
-        print (e)
+        print(f"ERROR: {e}")
 
 if __name__ == "__main__": main()
